@@ -1,6 +1,6 @@
 # LICENSE / 利用規約
 
-Copyright (c) 2026 えもちょ (emocho)
+Copyright (c) 2026 えもちょ (emotion65535)
 All rights reserved.
 
 ## 日本語規約 (Japanese)
@@ -11,7 +11,7 @@ All rights reserved.
 
 ### 1. 禁止事項
 * **改変の禁止:** 本ソフトウェアのソースコードを改変、修正、変更、または他のソフトウェアに組み込む行為。
-* **商用利用の禁止:** 本ソフトウェアを営利目的、ビジネス、業務内、または有料サービスの一部として直接・間接的に利用する行為。
+* **商用利用の制限（要事前相談）:** 事前の問い合わせおよび著作者からの承諾なく、本ソフトウェアを営利目的、ビジネス、業務内、または有料サービスの一部として直接・間接的に利用する行為。
 * **再配布の禁止:** 改変の有無を問わず、本ソフトウェアのソースコードや成果物を第三者へ再配布・転載する行為。
 * **フォーク（Fork）後の利用禁止:** GitHub等の機能を用いて本リポジトリをフォークすることはプラットフォームの規約上制限しませんが、フォークしたコードに対する「改変」「公開利用」「再配布」「商用利用」などの権利は一切付与されません。
 
@@ -19,20 +19,26 @@ All rights reserved.
 * 個人かつ非営利の目的に限り、ソースコードの閲覧、およびそのままの状態で実行・テストすること。
 
 ### 3. 商用利用・改変に関するお問い合わせ
-本ソフトウェアをビジネスで利用したい場合、または独自の改変・組み込みを行いたい場合は、個別に対応する有償の商業ライセンスをご用意しております。必ず事前に対象の連絡先までご相談ください。
+本ソフトウェアをビジネスで利用したい場合、または独自の改変・組み込みを行いたい場合は、必ず事前に以下の連絡先までお問い合わせ・ご相談ください。
 
 **連絡先:** emotion65535@gmail.com
+
+### 4. ライセンスの変更について
+本ソフトウェアが使用している外部ライブラリのライセンス規約および都合により、本規約（ライセンス）の内容は予告なく変更・改変される可能性があります。
 
 ---
 
 ## English Terms (Reference Only)
 
-All rights reserved by the author "emocho". 
+All rights reserved by the author "emotion65535". 
 
 This software and its source code are proprietary and NOT open-source.
 * **No Modifications:** You may not modify, alter, or adapt the source code.
-* **No Commercial Use:** Commercial or business use is strictly prohibited without a separate commercial license.
+* **Commercial Use Restrictions:** Commercial or business use is strictly prohibited without prior inquiry and explicit permission from the author.
 * **No Redistribution:** You may not redistribute or sublicense this software.
 * **Fork Limitation:** While you may fork this repository under GitHub's Terms of Service, no rights are granted to modify, reuse, or commercially exploit the forked repository.
 
-For commercial licensing or custom inquiries, please contact: emotion65535@gmail.com
+For commercial use, custom inquiries, or prior consultation, please contact: emotion65535@gmail.com
+
+### License Modifications
+Please note that these terms and the license may be modified or updated in the future due to the requirements or constraints of the third-party libraries used in this software.
