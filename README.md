@@ -2,7 +2,7 @@
 
 Youtubrowser は、Windows 専用のネイティブブラウザアプリです。
 
-起動時は YouTube 公式サイト（https://www.youtube.com/）を開きますが、URL 欄から任意のサイトへ移動できる汎用ブラウザとして動作します。YouTube の画面を模倣、スクレイピング、改変するものではなく、各サイトを Microsoft Edge WebView2 でそのまま表示します。
+起動時は YouTube 公式サイト（ https://www.youtube.com/ ）を開きますが、URL 欄から任意のサイトへ移動できる汎用ブラウザとして動作します。YouTube の画面を模倣、スクレイピング、改変するものではなく、各サイトを Microsoft Edge WebView2 でそのまま表示します。
 
 実装は C# / .NET 8 / WinUI 3 / Windows App SDK / Microsoft Edge WebView2 です。
 
