@@ -5,7 +5,7 @@ All rights reserved.
 
 ## 日本語規約 (Japanese)
 
-本ソフトウェアおよびソースコード（以下「本ソフトウェア」）の著作権は、すべて著作者である「えもちょ」に帰属します。
+本ソフトウェアおよびソースコード（以下「本ソフトウェア」）の著作権は、第三者コンポーネントを除き、著作者である「えもちょ」に帰属します。
 
 本ソフトウェアは、GitHub等のプラットフォーム上で公開されていますが、オープンソースソフトウェア（OSS）ではありません。利用者は、以下の条件を遵守するものとします。
 
@@ -18,25 +18,41 @@ All rights reserved.
 ### 2. 許可される事項
 * 個人かつ非営利の目的に限り、ソースコードの閲覧、およびそのままの状態で実行・テストすること。
 
-### 3. 商用利用・改変に関するお問い合わせ
+### 3. 第三者コンポーネント
+
+本ソフトウェアは、Microsoft Windows App SDK、Microsoft Edge WebView2、.NET コンポーネント等の外部ライブラリ、SDK、ランタイム、その他第三者コンポーネントを使用する場合があります。
+
+これらの第三者コンポーネントは、それぞれの権利者に帰属し、それぞれのライセンス条件に従います。第三者コンポーネントに関する通知、ライセンス、再配布条件、免責事項は `THIRD-PARTY-NOTICES.txt` に記載します。
+
+本規約は、本ソフトウェア独自部分に適用されるものであり、第三者コンポーネントについて各ライセンスが許諾する権利を制限するものではありません。本規約と第三者コンポーネントのライセンス条件が矛盾する場合、その第三者コンポーネントについては当該第三者ライセンスが優先されます。
+
+### 4. 商用利用・改変に関するお問い合わせ
 本ソフトウェアをビジネスで利用したい場合、または独自の改変・組み込みを行いたい場合は、必ず事前に以下の連絡先までお問い合わせ・ご相談ください。
 
 **連絡先:** emotion65535@gmail.com
 
-### 4. ライセンスの変更について
+### 5. ライセンスの変更について
 本ソフトウェアが使用している外部ライブラリのライセンス規約および都合により、本規約（ライセンス）の内容は予告なく変更・改変される可能性があります。
 
 ---
 
 ## English Terms (Reference Only)
 
-All rights reserved by the author "emotion65535". 
+All rights reserved by the author "emotion65535", excluding third-party components.
 
 This software and its source code are proprietary and NOT open-source.
 * **No Modifications:** You may not modify, alter, or adapt the source code.
 * **Commercial Use Restrictions:** Commercial or business use is strictly prohibited without prior inquiry and explicit permission from the author.
 * **No Redistribution:** You may not redistribute or sublicense this software.
 * **Fork Limitation:** While you may fork this repository under GitHub's Terms of Service, no rights are granted to modify, reuse, or commercially exploit the forked repository.
+
+### Third-Party Components
+
+This software may use external libraries, SDKs, runtimes, or other third-party components, including Microsoft Windows App SDK, Microsoft Edge WebView2, and .NET components.
+
+Those third-party components are owned by their respective copyright holders and are governed by their own license terms. Third-party notices, licenses, redistribution requirements, and disclaimers are described in `THIRD-PARTY-NOTICES.txt`.
+
+These terms apply to the original Youtubrowser software only. They do not restrict rights granted by the applicable third-party licenses for third-party components. If these terms conflict with a third-party component license, that third-party license controls for that component only.
 
 For commercial use, custom inquiries, or prior consultation, please contact: emotion65535@gmail.com
 

@@ -1,0 +1,218 @@
+# THIRD-PARTY NOTICES / 第三者コンポーネント通知
+
+This file lists third-party components and platform components used by
+Youtubrowser.
+
+Youtubrowser's original source code and documentation are governed by
+LICENSE.txt. Third-party components are owned by their respective copyright
+holders and are governed by their own license terms. If LICENSE.txt conflicts
+with a third-party component's license, that third-party license controls for
+that component only.
+
+このファイルは、Youtubrowser が使用する第三者コンポーネントおよび
+プラットフォームコンポーネントの通知です。
+
+Youtubrowser 独自のソースコードおよびドキュメントには LICENSE.txt が
+適用されます。第三者コンポーネントは各権利者に帰属し、それぞれの
+ライセンス条件に従います。LICENSE.txt と第三者コンポーネントの
+ライセンスが矛盾する場合、その第三者コンポーネントについては
+当該第三者ライセンスが優先されます。
+
+## Package inventory / パッケージ一覧
+
+The following list is based on:
+
+    dotnet list Youtubrowser\Youtubrowser.csproj package --include-transitive
+
+Direct package references:
+
+* Microsoft.WindowsAppSDK 2.2.0
+* Microsoft.Windows.SDK.BuildTools 10.0.26100.8249
+
+Transitive package references:
+
+* Microsoft.Web.WebView2 1.0.3719.77
+* Microsoft.Windows.AI.MachineLearning 2.1.70
+* Microsoft.Windows.SDK.BuildTools.MSIX 1.7.251221100
+* Microsoft.WindowsAppSDK.AI 2.2.3
+* Microsoft.WindowsAppSDK.Base 2.0.4
+* Microsoft.WindowsAppSDK.DWrite 2.1.0
+* Microsoft.WindowsAppSDK.Foundation 2.1.0
+* Microsoft.WindowsAppSDK.InteractiveExperiences 2.0.15
+* Microsoft.WindowsAppSDK.ML 2.1.70
+* Microsoft.WindowsAppSDK.Runtime 2.2.0
+* Microsoft.WindowsAppSDK.Widgets 2.0.5
+* Microsoft.WindowsAppSDK.WinUI 2.2.1
+* System.Numerics.Tensors 9.0.0
+
+## Microsoft Windows App SDK
+
+Packages:
+
+* Microsoft.WindowsAppSDK 2.2.0
+* Microsoft.Windows.AI.MachineLearning 2.1.70
+* Microsoft.WindowsAppSDK.AI 2.2.3
+* Microsoft.WindowsAppSDK.Base 2.0.4
+* Microsoft.WindowsAppSDK.DWrite 2.1.0
+* Microsoft.WindowsAppSDK.Foundation 2.1.0
+* Microsoft.WindowsAppSDK.InteractiveExperiences 2.0.15
+* Microsoft.WindowsAppSDK.ML 2.1.70
+* Microsoft.WindowsAppSDK.Runtime 2.2.0
+* Microsoft.WindowsAppSDK.Widgets 2.0.5
+* Microsoft.WindowsAppSDK.WinUI 2.2.1
+
+Copyright:
+
+* Copyright (c) Microsoft Corporation. All rights reserved.
+
+License:
+
+* Microsoft Software License Terms
+
+References:
+
+* https://www.nuget.org/packages/Microsoft.WindowsAppSDK/2.2.0
+* https://www.nuget.org/packages/Microsoft.WindowsAppSDK/2.2.0/License
+* https://github.com/microsoft/WindowsAppSDK
+
+Notes:
+
+Windows App SDK packages may include Microsoft redistributable code and
+third-party notices. Redistribution of those components is subject to the
+Microsoft license terms and notices provided with the corresponding packages.
+
+## Microsoft Windows SDK Build Tools
+
+Packages:
+
+* Microsoft.Windows.SDK.BuildTools 10.0.26100.8249
+* Microsoft.Windows.SDK.BuildTools.MSIX 1.7.251221100
+
+Copyright:
+
+* Copyright (c) Microsoft Corporation. All rights reserved.
+
+License:
+
+* Microsoft Software License Terms
+
+References:
+
+* https://www.nuget.org/packages/Microsoft.Windows.SDK.BuildTools/10.0.26100.8249
+* https://aka.ms/WinSDKLicenseURL
+
+Notes:
+
+These packages are build-time dependencies used to compile and package the
+application. They are not part of Youtubrowser's original source license.
+
+## Microsoft Edge WebView2
+
+Package:
+
+* Microsoft.Web.WebView2 1.0.3719.77
+
+Copyright:
+
+* Copyright (C) Microsoft Corporation. All rights reserved.
+
+License:
+
+* BSD-style license
+
+References:
+
+* https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3719.77
+* https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3719.77/License
+* https://developer.microsoft.com/microsoft-edge/webview2/
+
+License notice:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+* The name of Microsoft Corporation, or the names of its contributors may not
+  be used to endorse or promote products derived from this software without
+  specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## System.Numerics.Tensors and .NET components
+
+Package:
+
+* System.Numerics.Tensors 9.0.0
+
+Youtubrowser is configured as a self-contained .NET application. Binary
+distributions may therefore include .NET runtime and library components.
+
+Copyright:
+
+* Copyright (c) .NET Foundation and Contributors
+
+License:
+
+* MIT License
+
+References:
+
+* https://www.nuget.org/packages/System.Numerics.Tensors/9.0.0
+* https://licenses.nuget.org/MIT
+* https://github.com/dotnet/runtime/blob/main/LICENSE.TXT
+* https://github.com/dotnet/runtime/blob/main/THIRD-PARTY-NOTICES.TXT
+
+MIT License notice:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Microsoft Edge WebView2 Runtime
+
+Youtubrowser uses Microsoft Edge WebView2 to render web content. The WebView2
+Runtime may be installed separately on the user's Windows environment and is
+Microsoft software governed by Microsoft's own terms. Youtubrowser's LICENSE.txt
+does not grant rights to Microsoft Edge, Microsoft Edge WebView2 Runtime, or
+any Microsoft service.
+
+Reference:
+
+* https://developer.microsoft.com/microsoft-edge/webview2/
+
+## Not included / 含めていないもの
+
+The repository parent directory may contain node_modules from older or unrelated
+experiments. Youtubrowser does not reference those Node/Electron packages, and
+they are not included in this third-party notice.
+
+リポジトリ親ディレクトリに古い実験等の node_modules が存在する場合があります。
+Youtubrowser はそれらの Node/Electron パッケージを参照していないため、
+この通知の対象には含めていません。
