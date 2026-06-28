@@ -2,5 +2,4 @@ node_modules/
 bin/
 obj/
 .claude/settings.local.json
-*.zip
 Youtubrowser-test-*/
